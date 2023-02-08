@@ -16,35 +16,36 @@ class Song {
       title: 'The Best of Me',
       dscription: 'The Best of Me',
       url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
-      coverUrl: 'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
+      coverUrl:
+          'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
     ),
     Song(
       title: 'The Best of Me',
       dscription: 'The Best of Me',
-      url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
-      coverUrl: 'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
+      url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+      coverUrl:
+          'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
     ),
     Song(
       title: 'The Best of Me',
       dscription: 'The Best of Me',
-      url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
-      coverUrl: 'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
+      url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
+      coverUrl:
+          'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
     ),
     Song(
       title: 'The Best of Me',
       dscription: 'The Best of Me',
-      url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
-      coverUrl: 'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
+      url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
+      coverUrl:
+          'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
     ),
     Song(
       title: 'The Best of Me',
       dscription: 'The Best of Me',
-      url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
-      coverUrl: 'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
+      url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3',
+      coverUrl:
+          'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
     ),
-    Song(
-      title: 'The Best of Me',
-      dscription: 'The Best of Me',
-      url
   ];
 }
