@@ -15,37 +15,26 @@ class Song {
     Song(
       title: 'The Best of Me',
       dscription: 'The Best of Me',
-      url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
-      coverUrl:
-          'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
+      url: 'assets/music/Soundhelix1.mp3',
+      coverUrl: 'assets/images/Soundhelix1.jpg',
     ),
     Song(
       title: 'The Best of Me',
       dscription: 'The Best of Me',
-      url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
-      coverUrl:
-          'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
+      url: 'assets/music/Soundhelix2.mp3',
+      coverUrl: 'assets/images/Soundhelix2.jpg',
     ),
     Song(
       title: 'The Best of Me',
       dscription: 'The Best of Me',
-      url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
-      coverUrl:
-          'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
+      url: 'assets/music/Soundhelix3.mp3',
+      coverUrl: 'assets/images/Soundhelix3.jpg',
     ),
     Song(
       title: 'The Best of Me',
       dscription: 'The Best of Me',
-      url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
-      coverUrl:
-          'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
-    ),
-    Song(
-      title: 'The Best of Me',
-      dscription: 'The Best of Me',
-      url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3',
-      coverUrl:
-          'https://i.scdn.co/image/ab67616d0000b273d0f1f2f2b0f2f2f2b0f2f2f2',
+      url: 'assets/music/Soundhelix4.mp3',
+      coverUrl: 'assets/images/Soundhelix5.jpg',
     ),
   ];
 }
