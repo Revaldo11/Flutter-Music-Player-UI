@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 20.0),
                     SizedBox(
-                      height: MediaQuery.of(context).size.height * 0.27,
+                      height: MediaQuery.of(context).size.height * 0.24,
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemCount: songs.length,
@@ -51,7 +51,7 @@ class HomeScreen extends StatelessWidget {
                           );
                         },
                       ),
-                    )
+                    ),
                   ],
                 ),
               ),
