@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_music_ui/models/playlist_model.dart';
 import 'package:flutter_music_ui/models/song_model.dart';
-import 'package:flutter_music_ui/widgets/playlits_card.dart';
 import 'package:flutter_music_ui/widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -13,6 +12,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     List<Song> songs = Song.songs;
     List<Playlist> playlists = Playlist.playlists;
+
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
