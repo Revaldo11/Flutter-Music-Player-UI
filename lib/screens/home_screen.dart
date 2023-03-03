@@ -136,6 +136,7 @@ class _DiscoverMusic extends StatelessWidget {
                 borderSide: BorderSide.none,
               ),
             ),
+            style: const TextStyle(color: Colors.black),
           ),
         ],
       ),
