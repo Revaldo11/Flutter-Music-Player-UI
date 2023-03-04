@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_music_ui/models/playlist_model.dart';
 import 'package:flutter_music_ui/models/song_model.dart';
-import 'package:flutter_music_ui/widgets/widgets.dart';
+import '../widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
