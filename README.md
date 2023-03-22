@@ -5,7 +5,7 @@ class Revaldo extends Flutterchallenge {
     return {
       "title": "Flutter Music Player App UI",
       "description": "How to build an app music player UI with flutter",
-      "Desgin": "https://dribbble.com/shots/15522129-Music-Player-App"
+      "Design": "https://dribbble.com/shots/15522129-Music-Player-App"
     }
 }
 ```
