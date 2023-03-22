@@ -1,5 +1,4 @@
 // ignore_for_file: dead_code
-
 import 'package:flutter/material.dart';
 
 import '../models/playlist_model.dart';
@@ -12,7 +11,7 @@ class PlaylistScreen extends StatefulWidget {
 }
 
 class _PlaylistScreenState extends State<PlaylistScreen> {
-  Playlist playlist = Playlist.playlists[1];
+  Playlist playlist = Playlist.playlists[0];
 
   @override
   Widget build(BuildContext context) {
@@ -43,11 +42,54 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                 _PlaylistInformation(playlist: playlist),
                 const SizedBox(height: 30.0),
                 const _PlayOrSuffleSwitch(),
+                const SizedBox(height: 10.0),
+                _PlaylistSong(playlist: playlist),
               ],
             ),
           ),
         ),
       ),
+    );
+  }
+}
+
+class _PlaylistSong extends StatelessWidget {
+  const _PlaylistSong({
+    Key? key,
+    required this.playlist,
+  }) : super(key: key);
+
+  final Playlist playlist;
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView.builder(
+      shrinkWrap: true,
+      physics: const NeverScrollableScrollPhysics(),
+      itemCount: playlist.songs.length,
+      itemBuilder: (context, index) {
+        return ListTile(
+          leading: Text(
+            '${index + 1}',
+            style: Theme.of(context)
+                .textTheme
+                .bodyMedium!
+                .copyWith(fontWeight: FontWeight.bold),
+          ),
+          title: Text(
+            playlist.songs[index].title,
+            style: Theme.of(context)
+                .textTheme
+                .bodyLarge!
+                .copyWith(fontWeight: FontWeight.bold),
+          ),
+          subtitle: Text('${playlist.songs[index].description} - 02:30'),
+          trailing: const Icon(
+            Icons.more_vert,
+            color: Colors.white,
+          ),
+        );
+      },
     );
   }
 }
