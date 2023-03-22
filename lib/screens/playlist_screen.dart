@@ -1,5 +1,6 @@
 // ignore_for_file: dead_code
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../models/playlist_model.dart';
 
@@ -11,7 +12,7 @@ class PlaylistScreen extends StatefulWidget {
 }
 
 class _PlaylistScreenState extends State<PlaylistScreen> {
-  Playlist playlist = Playlist.playlists[0];
+  Playlist playlist = Get.arguments ?? Playlist.playlists[0];
 
   @override
   Widget build(BuildContext context) {
