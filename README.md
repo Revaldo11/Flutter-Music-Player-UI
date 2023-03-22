@@ -19,4 +19,4 @@ class Revaldo extends Flutterchallenge {
 ```
 
 ## ScreenShot
-<img src="/doc/01.png" widht="500em">
+<img src="/doc/01.png" width="50%">
