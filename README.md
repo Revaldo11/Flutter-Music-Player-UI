@@ -1,7 +1,7 @@
 # Flutter Music Player UI
 
 ```dart
-class Revaldo extends Flutterchallenge {
+class Revaldo extends FlutterChallenge {
     return {
       "title": "Flutter Music Player App UI",
       "description": "How to build an app music player UI with flutter",
